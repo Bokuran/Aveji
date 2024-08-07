@@ -169,6 +169,18 @@ body {
   max-width: 329px;
 }
 
+.projects{
+  padding-top: 96px;
+}
+
+.projects__title{
+  font-size: 48px;
+}
+
+.projects__main{
+  padding-top: 32px;
+}
+
 .projects__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
