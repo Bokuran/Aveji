@@ -1,0 +1,38 @@
+.links {
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+    /* Плавный переход для цвета и трансформации */
+}
+
+.links::before {
+    content: '';
+    /* Создаем псевдоэлемент */
+    position: absolute;
+    /* Позиционируем относительно родителя */
+    left: 0;
+    /* Прижимаем к левому краю */
+    bottom: 0;
+    /* Прижимаем к нижнему краю */
+    width: 100%;
+    /* Ширина равна ширине ссылки */
+    height: 1px;
+    /* Толщина нижней границы */
+    background-color: #212529;
+    /* Цвет нижней границы */
+    transform: scaleX(0);
+    /* Начальное состояние (полная ширина) */
+    transition: transform 0.3s;
+    /* Плавный переход для анимации */
+    transform-origin: right bottom;
+    /* Устанавливаем точку начала трансформации с левой стороны */
+}
+
+.links:hover::before {
+    transform: scaleX(1);
+    /* Сужаем до нуля при наведение */
+    transform-origin: left bottom;
+}
+
+.links:hover {
+    color: #CBC6B2;
+}
