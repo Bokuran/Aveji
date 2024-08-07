@@ -1,0 +1,26 @@
+.header__nav {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0 0 0;
+  }
+  
+  .header__menu {
+    display: flex;
+  }
+  
+  .header__menu-links {
+    padding-right: 207px;
+  }
+  
+  .header__menu-links {
+    margin: 0 0 8px 0;
+  }
+  
+  .phone {
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .phone:hover {
+    color: #CBC6B2;
+  }

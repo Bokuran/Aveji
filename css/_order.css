@@ -1,0 +1,36 @@
+.order {
+    padding-top: 32px;
+  }
+  
+  .order__bottom,
+  .order__top {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .order__top {
+    padding-bottom: 40px;
+  }
+  
+  .order__top-title {
+    font-size: 72px;
+    max-width: 792px;
+  }
+  
+  .order__top-button {
+    font-size: 18px;
+    margin-top: auto;
+  }
+  
+  .order__bottom-left-descr {
+    font-size: 20px;
+    max-width: 445px;
+    line-height: 140%;
+  }
+  
+  .order__bottom-left,
+  .order__bottom-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }

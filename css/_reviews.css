@@ -1,0 +1,31 @@
+.reviews__title {
+    font-size: 48px;
+  }
+  
+  .reviews__cards {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .reviews__card {
+    padding: 40px 40px 60px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 445px;
+    color: #212529;
+    border: 1px solid #000000;
+  }
+  
+  .reviews__card-name {
+    padding-top: 32px;
+    font-size: 18px;
+  }
+  
+  .reviews__card-text {
+    padding-top: 20px;
+    line-height: 140%;
+  }

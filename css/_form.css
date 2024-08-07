@@ -1,0 +1,58 @@
+.form__main {
+    display: flex;
+  }
+  
+  .form__left {
+    padding-right: 136px;
+  }
+  
+  .form__right-top {
+    padding-bottom: 72px;
+  }
+  
+  .form__title {
+    font-size: 48px;
+    padding-bottom: 32px;
+  }
+  
+  .form__inner {
+    padding-bottom: 8px;
+  }
+  
+  .form__input {
+    display: block;
+    width: 100%;
+    max-width: 562px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #212529;
+    color: #212529;
+    margin-bottom: 16px;
+    padding: 12px;
+  }
+  
+  .form__input::placeholder {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #212529;
+  }
+  
+  .form__btn {
+    width: 100%;
+    max-width: 176px;
+    color: #fff;
+    padding: 12px 20px;
+    background-color: #212529;
+    margin-bottom: 40px;
+    transition: 0.3s;
+  }
+  
+  .form__btn:hover {
+    color: #212529;
+    background-color: #DDD7C0;
+  }
+  
+  .form__app {
+    display: flex;
+    gap: 8px;
+  }

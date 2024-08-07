@@ -1,0 +1,28 @@
+.about__main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about__left-title {
+    font-size: 48px;
+    max-width: 562px;
+  }
+  
+  .about__right-text {
+    max-width: 446px;
+    font-size: 16px;
+  }
+  
+  .about__right-descr {
+    padding-bottom: 16px;
+    line-height: 140%;
+  }
+  
+  .about__right-information {
+    padding-top: 28px;
+    max-width: 146px;
+  }
+  
+  .about__right-info {
+    font-size: 36px;
+  }

@@ -1,0 +1,33 @@
+.work__main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .work__title {
+    font-size: 48px;
+    max-width: 562px;
+  }
+  
+  .work__right-top {
+    padding-bottom: 44px;
+    max-width: 325px;
+  }
+  
+  .work__right-information {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+  }
+  
+  .work__right-info {
+    max-width: 328px;
+    font-size: 36px;
+  }
+  
+  .work__right-text {
+    font-size: 16px;
+    line-height: 140%;
+    max-width: 329px;
+  }
